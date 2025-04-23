@@ -46,4 +46,29 @@ console.log(a > b)//10>20 F
 console.log(a<=20)//10 <= 20 T
 console.log(b >= a)//20 >= 10 T
 
+/*------------------------OPERADORES LÓGICOS-------------------------
+Os operadores lógicos verificam se condições são verdadeiras ou falsas.
+Temos 3 tipos de operadores:
 
+&&: E/AND as duas condições devem ser verdadeiras para que a condição seja verdadeira.
+||: OU/OR precisa que apenas uma condição seja verdadeira.
+! : NÃO/NOT é responsável por negar uma condição
+*/
+
+let x = 100
+let y = 200
+let z = 15
+
+function saoPares(n1, n2,n3){
+    if(n1%2===0 && n2%2 === 0){
+        console.log("Ambos são pares.")
+    }
+    if(n1%2!== 0 || n3%2!==0){
+        console.log("Pelo menos um desses números é ímpar.")
+    }
+}
+
+saoPares(x,y,z)
+
+console.log(!true)
+console.log(!false)
