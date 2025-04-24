@@ -72,3 +72,4 @@ saoPares(x,y,z)
 
 console.log(!true)
 console.log(!false)
+
